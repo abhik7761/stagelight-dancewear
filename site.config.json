@@ -1,0 +1,55 @@
+{
+  "_help": "Business details, ads IDs and policies live here. After editing run: npm run build (or npm run dev to preview).",
+
+  "brand": "Stagelight Dancewear",
+  "tagline": "Dance shoes and dancewear for every class, recital and competition",
+  "domain": "https://www.example.com",
+  "currency": "USD",
+  "currencySymbol": "$",
+
+  "contact": {
+    "email": "",
+    "phone": "",
+    "showPhone": false,
+    "whatsapp": "",
+    "address": "",
+    "hours": "Mon-Fri, 10am-6pm"
+  },
+
+  "forms": {
+    "leadEmail": "",
+    "web3formsKey": "",
+    "demoMode": true
+  },
+
+  "tracking": {
+    "ga4": "",
+    "googleAds": "",
+    "googleAdsLeadLabel": "",
+    "googleAdsAddToCartLabel": "",
+    "microsoftUet": "",
+    "clarity": ""
+  },
+
+  "policies": {
+    "shipRegion": "the United States",
+    "processingDays": "1-2 business days",
+    "freeShippingOver": 0,
+    "returnDays": 30,
+    "lastUpdated": "October 2026"
+  },
+
+  "pricing": {
+    "_help": "Markup on the source prices. First matching tier wins (by the product's lowest original price). Prices end in endWith (e.g. 0.95 -> $27.95). overrides: item number -> percent.",
+    "enabled": true,
+    "tiers": [
+      { "under": 40, "markupPercent": 20 },
+      { "markupPercent": 10 }
+    ],
+    "endWith": 0.95,
+    "overrides": {}
+  },
+
+  "showBrandNames": true,
+  "announcement": "Dance shoes for ballet, jazz, tap, hip-hop and lyrical - sized for kids and adults"
+}
